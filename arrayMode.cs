@@ -5,6 +5,7 @@ For sequence = [1, 3, 2, 1], the output should be
 arrayMode(sequence) = 1
 */
 
+
 dynamic arrayMode(int[] sequence) {
             Dictionary<dynamic, int> reapets = new Dictionary<dynamic, int>();
             foreach(var n in sequence)
